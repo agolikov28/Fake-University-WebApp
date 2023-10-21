@@ -13,11 +13,11 @@ function HeroSection() {
         <h2>AT HAVENDALE</h2>
         <p>What are you waiting for?</p>
         <div className="hero-btns">
-            <Button className='btns'buttonStyle='btn--outline'
+            <Button className='btns' linkTo='/academics' buttonStyle='btn--outline'
             buttonSize='btn--large'>
                 GET STARTED
             </Button>
-            <Button className='btns'buttonStyle='btn--primary'
+            <Button className='btns' linkTo='/sign-up' buttonStyle='btn--primary'
             buttonSize='btn--large'>
                 STUDENT LOGIN <FontAwesomeIcon icon={faRightToBracket} />
             </Button>

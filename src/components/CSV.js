@@ -2,7 +2,10 @@ import React from 'react'
 import Data from './majors-list.csv'
 import Papa from 'papaparse'
 import './CSV.css'
+import {motion} from 'framer-motion'
 import { useState, useEffect } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBrain, faChess, faComputer, faDna, faGavel, faGears, faGlobe, faGraduationCap, faLandmark, faMasksTheater, faNewspaper, faStethoscope, faSuperscript, faWheatAwn } from '@fortawesome/free-solid-svg-icons'
 
 function CSV() {
     const [data, setData] = useState([]);
@@ -30,6 +33,7 @@ function CSV() {
 
 
     function renderData(data) { 
+        console.clear()
         let mapSchools = new Map(); 
         let schools = new Set();
         let majors = [];
@@ -37,12 +41,15 @@ function CSV() {
         for(let i = 0; i < data.length; i++){
             let currSch = data[i].major_category
             let currMaj = data[i].major
-
-            
-
             majors.push(currMaj)
             schools.add(currSch)
         }
+
+        let iconNames = ['fa-wheat-awn','fa-dna',"fa-gears","fa-chess",
+            "fa-newspaper","fa-computer","fa-graduation-cap",
+            "fa-gavel","fa-superscript","fa-stethoscope",
+            "fa-globe","fa-brain","fa-masks-theater","fa-landmark"
+        ]
 
                     for(const value of schools){
                         mapSchools.set(value, [])
@@ -53,7 +60,6 @@ function CSV() {
                         let currArr = mapSchools.get(curr.major_category)
                         currArr.push(majors[k])
                     }
-                    console.log(mapSchools)
 
                     const newMap = new Map()
                     for(let [key,val] of mapSchools){
@@ -73,22 +79,31 @@ function CSV() {
                     }
 
                     console.log(newMap)
+                    let count = 0;
                 for (const [key,val] of newMap) {
                   let card = document.createElement("div");
                   card.className = 'profile-card'
                     let html = ''
                     html += `<h1>${key}</h1>`
+                    //ADD ICON @ COUNT HERE
+                   
+                    html += `<p>`
                     for (let j = 0; j < val.length; j++) {
                         if (val[j] === '') return;
                         else {
-                        html += `<p>${val[j]}</p>`
+                        html += `· ${val[j]} `
                         }
-                        card.innerHTML = html;
                   }
+                  html += `</p>`
+                  card.innerHTML = html;
+
                   let display = document.getElementById("result-text");
+
                   if (display) {
+                    console.log(card)
                     display.appendChild(card);
                     }
+                    count++
                 }
               }
   return (
@@ -102,6 +117,7 @@ function CSV() {
                         <h2>Havendale University's Departments span more than 15 disciplines.</h2>
                         <div id="result-text"></div>
                     </div>
+               
                 </div>
             </div>
         </div>
