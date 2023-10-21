@@ -1,8 +1,15 @@
 .emptyList-wrap{
     display: flex;
-    justify-content: center;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+}
+
+.emptyList-wrap > h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b4b4b;
 }
 .emptyList-wrap img{
     max-width:250px;
-    width:100%;
 }
