@@ -9,14 +9,15 @@
 .academics,
 .events,
 .sign-up {
-  background-color: #797979;
+  background-color: #6b6b6b;
   display: flex;
-  height: 90vh;
   align-items: center;
   justify-content: center;
 }
 
 .academics {
+  width: '100vw';
+  height: '70vh';
   background-image: url('images/library-view.jpg');
   background-position: center;
   background-size: cover;
@@ -27,6 +28,8 @@
 }
 
 .events {
+  width: '100vw';
+  height: '100vh';
   background-image: url('images/building-4.jpg');
   background-position: center;
   background-size: cover;
@@ -34,6 +37,7 @@
   background-blend-mode: multiply;
   font-size: 50px;
   color: #fff;
+
 }
 
 .sign-up {

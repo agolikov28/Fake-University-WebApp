@@ -1,0 +1,86 @@
+export const blogList = [
+    {
+      id: 1,
+      title: 'Post-Grad Life: The Stories of Five Havendale University Alumni',
+      category: 'academics',
+      subCategory: ['education', 'alumni', 'graduation'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Macy Clay',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'May 03, 2024',
+      cover: '/images copy/graduating-class-2.jpg',
+    },
+    {
+      id: 2,
+      title: 'Chemistry Building to Begin Reconstruction in May',
+      category: 'campus',
+      subCategory: ['construction', 'campus'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Jerry Doe',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'January 18, 2024',
+      cover: '/images copy/building-5.jpg',
+        },
+    {
+      id: 3,
+      title: 'How Havendale Athletics is Taking College Football by Storm',
+      category: 'athletics',
+      subCategory: ['sports', 'campus', 'football'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Havendale Sports Journal',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'September 10, 2023',
+      cover: '/images copy/football-field.jpg',
+        },
+    {
+      id: 4,
+      title: 'Going Green: How Havendale Students Can Help the Planet',
+      category: 'campus',
+      subCategory: ['environment', 'campus', 'lifestyle'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Havendale Environment Club',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'October 03, 2023',
+      cover: '/images copy/biking-to-class.jpg',
+        },
+    {
+      id: 5,
+      title: 'Havendale Lecture Halls Through the Years',
+      category: 'academics',
+      subCategory: ['education', 'study', 'campus'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Terry Tarry',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'June 03, 2024',
+      cover: '/images copy/lecture-hall.jpg',
+        },
+    {
+      id: 6,
+      title: '14 Study Tips From the Future DOAs on Campus',
+      category: 'education',
+      subCategory: ['study', 'academics', 'library'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'DOA Board of Representatives',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'June 09, 2024',
+      cover: '/images copy/working-on-laptop.jpg',
+        },
+    {
+      id: 7,
+      title: 'Managing Group Work: How to Commmunicate Professionally',
+      category: 'academics',
+      subCategory: ['education', 'campus', 'tips'],
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      authorName: 'Jamie Presley',
+      authorAvatar: '/assets/images/author.jpg',
+      createdAt: 'February 02, 2024',
+      cover: '/images copy/people-in-library.jpg',
+        },
+  ];

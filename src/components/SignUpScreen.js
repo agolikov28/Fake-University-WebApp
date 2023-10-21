@@ -9,7 +9,6 @@ function SignUpScreen() {
   const [action,setAction] = useState('Login');
 
   return (
-    <div className="sign-up">
     <div className="container-signup">
       <div className="header-signup">
         <div className="text-signup">{action}</div>
@@ -30,7 +29,7 @@ function SignUpScreen() {
           <input type="password" placeholder='Password'/>
         </div>
       </div>
-      {action==='Login'? <div></div>:<div className="forgot-password">Lost Password?<span> Click Here</span></div>}
+      {action==='Login'? <div className="forgot-password">Lost Password?<span> Click Here</span></div> : <div></div>}
       
       <div className="submit-container">
         <div className={action==='Login'?'submit gray':'submit'}  onClick={() => {setAction("Sign Up")}}>
@@ -44,7 +43,6 @@ function SignUpScreen() {
             </Button>
           </div>
         </div>
-    </div>
     </div>
   )
 }

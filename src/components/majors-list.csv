@@ -16,14 +16,13 @@ communications,communications
 communications,journalism
 communications,mass media
 communications,advertising and public relations
-computers & mathematics,communication technologies
-computers & mathematics,computer and information systems
-computers & mathematics,computer programming and data processing
-computers & mathematics,computer science
-computers & mathematics,information sciences
-computers & mathematics,computer administration management and security
-computers & mathematics,computer networking and telecommunications
-industrial arts,cosmetology services and culinary arts
+computers,communication technologies
+computers,computer and information systems
+computers,computer programming and data processing
+computers,computer science
+computers,information sciences
+computers,computer administration management and security
+computers,computer networking and telecommunications
 education,general education
 education,educational administration and supervision
 education,school student counseling
@@ -34,8 +33,7 @@ education,early childhood education
 education,science and computer teacher education
 education,secondary teacher education
 education,special needs education
-education,social science or history teacher education
-education,teacher education: multiple levels
+education,social science or history teacher 
 education,language and drama education
 education,art and music education
 education,miscellaneous education
@@ -48,20 +46,14 @@ engineering,chemical engineering
 engineering,civil engineering
 engineering,computer engineering
 engineering,electrical engineering
-engineering,engineering mechanics physics and science
 engineering,environmental engineering
 engineering,geological and geophysical engineering
 engineering,industrial and manufacturing engineering
 engineering,materials engineering and materials science
 engineering,mechanical engineering
-engineering,metallurgical engineering
 engineering,mining and mineral engineering
 engineering,naval architecture and marine engineering
 engineering,nuclear engineering
-engineering,petroleum engineering
-engineering,miscellaneous engineering
-engineering,engineering technologies
-engineering,engineering and industrial management
 engineering,electrical engineering technology
 engineering,industrial production technologies
 engineering,mechanical engineering related technologies
@@ -69,7 +61,6 @@ engineering,miscellaneous engineering technologies
 humanities & liberal arts,linguistics and comparative language and literature
 humanities & liberal arts,french german latin and other common foreign language studies
 humanities & liberal arts,other foreign languages
-industrial arts,family and consumer sciences
 law & public policy,court reporting
 law & public policy,pre-law and legal studies
 humanities & liberal arts,english language and literature
@@ -89,16 +80,13 @@ biology & life science,physiology
 biology & life science,zoology
 biology & life science,neuroscience
 biology & life science,miscellaneous biology
-computers & mathematics,mathematics
-computers & mathematics,applied mathematics
-computers & mathematics,statistics and decision science
-industrial arts,military technologies
+mathematics,mathematics
+mathematics,applied mathematics
+mathematics,statistics and decision science
 humanities & liberal arts,intercultural and international studies
 health,nutrition sciences
-computers & mathematics,mathematics and computer science
 biology & life science,cognitive science and biopsychology
 social science,interdisciplinary social sciences
-industrial arts,physical fitness parks recreation and leisure
 humanities & liberal arts,philosophy and religious studies
 humanities & liberal arts,theology and religious vocations
 physical sciences,physical sciences
@@ -109,7 +97,6 @@ physical sciences,geology and earth science
 physical sciences,geosciences
 physical sciences,oceanography
 physical sciences,physics
-engineering,materials science
 physical sciences,multi-disciplinary or general science
 psychology & social work,psychology
 psychology & social work,educational psychology
@@ -132,8 +119,6 @@ social science,international relations
 social science,political science and government
 social science,sociology
 social science,miscellaneous social sciences
-industrial arts,construction services
-industrial arts,transportation sciences and technologies
 arts,fine arts
 arts,drama and theater arts
 arts,music
