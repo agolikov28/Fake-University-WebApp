@@ -1,5 +1,5 @@
 # Preview Images
-<img src="WholeTrack Style Guide.png">
+<img src="Havendale-Home-Page.png">
 <img src="WholeTrack Style Guide.png">
 <img src="WholeTrack Style Guide.png">
 <img src="WholeTrack Style Guide.png">
