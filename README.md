@@ -1,5 +1,9 @@
 # Preview Images
-
+<img src="WholeTrack Style Guide.png">
+<img src="WholeTrack Style Guide.png">
+<img src="WholeTrack Style Guide.png">
+<img src="WholeTrack Style Guide.png">
+  
 ## How to view the Havendale University React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
