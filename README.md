@@ -1,10 +1,35 @@
 # Preview Images
+
+Home Page - with video Hero section
+
 <img src="Havendale-Home-Page.png">
-<img src="WholeTrack Style Guide.png">
-<img src="WholeTrack Style Guide.png">
-<img src="WholeTrack Style Guide.png">
+
+
+Home Page - below Hero section with clickable and animated cards
+
+<img src="Havendale-Home-Page-2.png">
+
+
+Academics Page - with list and cards created by parsing CSV file
+
+<img src="Havendale-Academics-Page.png">
+
+
+Events Page - with working search by category or keyword
+
+<img src="Havendale-Events-Page.png">
+
+
+Blog Page - displays articles once a user selects them
+
+<img src="Havendale-BlogPost-Page.png">
+
+
+Login Page - changes whether a user selects Login or Sign Up
+
+<img src="Havendale-Login-Page.png">
   
-## How to view the Havendale University React App
+# How to view the Havendale University React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
